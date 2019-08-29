@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+use_frameworks!
+
+target 'CognitoYourUserPoolsSample' do
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'AWSCognitoIdentityProvider' 
+  pod 'JWTDecode' 
+  pod 'AWSAPIGateway'
+  pod 'SwiftyJSON'
+  pod 'SDWebImage'
+end
